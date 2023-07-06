@@ -1,5 +1,6 @@
 # Image Segmentation of Ishihara Test
 
+
 ### Project Overview:
 K-means is an unsupervised learning method used to find groups within a point cloud. In our project, we utilized this algorithm to cluster the pixels of an image and ultimately reduce the number of colors present in the image. The goal of this project is to implement this algorithm to achieve color segmentation that is clear for our dataset containing four types of images. Each type presents a difficulty in differentiating between well-defined colors from a certain palette.
 
