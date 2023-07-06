@@ -2,8 +2,7 @@
 
 
 ### Project Overview:
-K-means is an unsupervised learning method used to find groups within a point cloud. In our project, we utilized this algorithm to cluster the pixels of an image and ultimately reduce the number of colors present in the image. The goal of this project is to implement this algorithm to achieve color segmentation that is clear for our dataset containing four types of images. Each type presents a difficulty in differentiating between well-defined colors from a certain palette.
-
+This project aims to segment images using the unsupervised learning algorithm K-means to remove the background from Ishihara test images and accurately differentiate the numbers in question.
 
 ### Dataset:
 To test the model, we used the "Ishihara blind test cards" dataset. Ishihara blind test cards were created in October 2020 as part of a project at Kuban State University. They were inspired by Vadim Vladislavovhich Podcolzin and generated using Google's font list. The dataset consists of color vision test cards that measure the ability to differentiate between colors. Each card contains a pattern of multicolored dots, and there is a number or symbol in each color. The shapes and symbols should be easy to distinguish from the surrounding dots if you have normal color vision. However, if you have color vision deficiencies, you may not be able to see the symbols or have difficulties distinguishing patterns among the dots. The dataset contains 1400 images of numbers from 0 to 9. The first character of each image represents the label, followed by the font name and the type of coloring.
